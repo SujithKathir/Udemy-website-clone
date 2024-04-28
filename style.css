@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.Navbar {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 20px;
+    align-items: center;
+}
+
+.Navbar-s1__title {
+    color: #A435F0;
+}
+
+.Navbar-s2 {
+    border: solid black 2px;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    width: 60%;
+    gap: 20px;
+    align-items: center;
+}
+
+.Navbar-s2 input {
+    border: none;
+    width: 100%;
+}
+
+.Navbar-s2 input:focus {
+    outline: none;
+}
+
+.Navbar-s3 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.cat {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    border-bottom: solid black 1px;
+    padding: 10px;
+
+
+}
+
+.cat p {
+    background-color: #A435F0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.recommended_contanier {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: ;
+
+}
+
+.recommended-title {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.sale-img img {
+    width: 100%;
+}
+
+.contanier_card {
+    width: 300px;
+    height: 50%;
+    padding: 10px;
+
+
+}
+
+.recommended-title p {
+    padding-bottom: 20px;
+}
+
+
+.contanier_card img {
+    width: 100%;
+}
+.topic{
+    padding: 10px;
+}
+.topic_container{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;flex-wrap: wrap;
+    
+
+}
+.topic_container p{
+    padding: 10px;
+    border: solid grey 3px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.popular-section{
+    margin: 10px;
+}
+
+.popular-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.footer_two{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+
+}
+.footer_one{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.footer_one-s1 p,.footer_one-s2 p{
+    padding:10px;
+}
